@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background: rgb(238, 237, 237);
+}
+.container{
+    background-color: white;
+    width: 500px;
+    margin: 50px auto ;
+    padding: 25px;
+   border-top: 5px solid blue;
+   box-shadow: 0px 0px 7px 2px black;
+}
+#heading{
+    font-size: 24px;
+    text-align: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.distance{
+    margin: 20px auto;
+    width: 90%;
+    position: relative;
+}
+.lock{
+    padding: 8px 11px;
+} 
+.textbox1{
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+}
+.distance span{
+    margin-left: 35px;
+}
+.textbox{
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+}
+.distance i{
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+}
+.email{
+    padding: 8px;
+}
+.pass{
+    padding: 8px;
+    padding-right: 14px;
+}
+.textbox1,.textbox{
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.textbox1:hover,.textbox:hover{
+    background-color: #fafafa;
+}
+.textbox1:focus,.textbox:focus{
+    border: 1px solid blue;
+}
+.radio{
+    margin-right: 3px;
+}
+.label{
+    margin-right: 15px;
+}
+.selectbar{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border:1px solid #cccccc;
+    outline: none;
+    color:#7b7b7b;
+    background-color: white;
+    appearance: none;   
+    
+} 
+
+.selectbar::-ms-expand{
+    display: none;
+}
+.selectbar:hover,.selectbar:focus {
+    color: blue;
+    background: #fafafa;
+    border-color: blue;
+}
+.arrow{
+    position: absolute;
+     top:calc(50% - 4px);
+     right: 15px;
+     /* width: 0px;
+     height: 0px; */
+      pointer-events: none;
+    border-width: 8px 5px 0 5px;      
+    border-style: solid;
+    border-color:  #7b7b7b transparent transparent transparent; 
+    
+}
+
+.selectbar:hover + .arrow, .selectbar:focus + .arrow
+{
+    border-top-color: blue;
+}
+.checkbox{
+    padding: 29px;
+    margin-right: 5px;
+}
+.checklabel{
+    font-size: 15px;
+}
+.register{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.register:hover{
+    background-color: green;
+}
